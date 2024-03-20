@@ -18,3 +18,9 @@ header, nav, main, footer {
     text-align: center;
 }
 
+@media only screen and (min-width: 600px) {
+    .container {
+        height: 50vh; /* Reset height for larger screens */
+    }
+}
+
